@@ -6,8 +6,9 @@ import Education from "./components/sections/Education";
 import Experience from "./components/sections/Experience";
 import Certificates from "./components/sections/Certificates";
 import Gallery from "./components/sections/Gallery";
-import Stats from "./components/sections/Stats";
-import GitHubStats from "./components/sections/GitHubStats";
+/*import Stats from "./components/sections/Stats";
+import GitHubStats from "./components/sections/GitHubStats";*/
+
 import Contact from "./components/sections/Contact";
 import BackToTop from "./components/ui/BackToTop";
 import CodingProfiles from "./components/sections/CodingProfiles";
@@ -23,8 +24,6 @@ function App() {
       <Experience />
       <Certificates />
       <Gallery />
-      <Stats />
-      <GitHubStats />
       <Contact />
       <BackToTop />
     </>
